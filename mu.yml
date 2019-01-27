@@ -1,0 +1,8 @@
+namespace: mu-75
+environments:
+- name: acceptance
+- name: production
+service:
+  port: 8080
+  pathPatterns:
+  - /*
